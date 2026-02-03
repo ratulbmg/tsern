@@ -3,13 +3,16 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "start": "turbo run start",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
-    "turbo": "^2.8.2"
+    "tsx": "^4.21.0",
+    "turbo": "^2.8.2",
+    "typescript": "^5.9.3"
   },
   "name": "with-vite",
   "packageManager": "yarn@4.11.0",
